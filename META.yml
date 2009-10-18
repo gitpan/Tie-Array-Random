@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Tie-Array-Random
-version:            1.0
+version:            1.01
 abstract:           A tied array that generate random
 author:
     - Matias Alejo Garcia ( matiu@cpan.org ) 
@@ -13,7 +13,7 @@ build_requires:
 requires:
     Data::Random:  ~
     Scalar::Util:  ~
-    Test::More:    ~
+    Test::More:    0.88
 no_index:
     directory:
         - t
